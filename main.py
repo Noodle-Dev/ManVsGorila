@@ -70,9 +70,9 @@ def main():
             
             # Verificar condiciones de fin
             if gorila.health <= 0:
-                outcome = "¡Los hombres han derrotado al gorila!"
+                outcome = "Men Won!"
             elif len(hombres) <= 10:
-                outcome = f"¡El gorila ha ganado! Sobrevivieron {len(hombres)} hombres"
+                outcome = f"Gorila Won! {len(hombres)} men's left"
         
         particles.update()
         particles.draw(screen)
